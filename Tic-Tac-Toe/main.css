@@ -1,0 +1,97 @@
+
+
+body {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    background: url('img/1_mWWz_fABgRc-W2s4VHF6PQ.gif') no-repeat;
+    background-size: cover;
+    margin-top: -15px;
+}
+  
+h1{
+    font-size: 500%;
+    margin: 0;
+    padding-bottom: 1%;
+    padding-top: 3%;
+    color: black;
+    text-shadow:
+      0 0 5px orange,
+      0 0 10px orange,
+      0 0 20px orange,
+      0 0 40px purple,
+      0 0 80px purple,
+      0 0 90px purple,
+      0 0 100px purple,
+      0 0 150px purple;
+}
+
+.squircle {
+    display: inline-block;
+    width: 135px;
+    height: 105px;
+    margin: 5px;
+    background-color: #B86DEE;
+    vertical-align: top;
+    color: purple;
+    text-shadow:
+    0 0 5px orange,
+    0 0 10px orange,
+    0 0 20px orange,
+    0 0 40px purple,
+    0 0 80px purple,
+    0 0 90px purple,
+    0 0 100px purple,
+    0 0 150px purple;
+    border-radius: 35px;
+    font-size: 650%;
+    color: dark;
+    border: black 10px solid;
+    box-shadow: darkorange 0px 7px 29px 7px;
+}
+ 
+.container{
+    padding-bottom: 2%;
+}
+
+.button1 {
+    outline: 0;
+    position: relative;
+    display: inline-block;
+    padding: 10px 40px;
+    font-size: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 5px solid black;
+    background: darkorange;
+    color: purple;
+    text-shadow:
+    0 0 5px orange,
+    0 0 10px orange,
+    0 0 20px orange,
+    0 0 40px purple,
+    0 0 80px purple,
+    0 0 90px purple,
+    0 0 100px purple,
+    0 0 150px purple;
+    font-weight: 600;
+    border-radius: 20px;
+    transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+.button1:hover {
+    background-color: darkorange;
+    color: purple;
+    text-shadow:
+    0 0 5px orange,
+    0 0 10px orange,
+    0 0 20px orange,
+    0 0 40px purple,
+    0 0 80px purple,
+    0 0 90px purple,
+    0 0 100px purple,
+    0 0 150px purple;
+    box-shadow: 0 0 5px darkorange,
+                0 0 20px darkorange,
+                0 0 35px darkorange,
+                0 0 50px darkorange;
+    border-color: black;
+}
